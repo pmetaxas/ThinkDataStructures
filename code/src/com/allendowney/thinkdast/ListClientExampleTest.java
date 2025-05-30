@@ -1,4 +1,6 @@
 package com.allendowney.thinkdast;
+// This test fails for no apparent reason. 
+// JUnit test passes on blueJ
 
 import static org.junit.Assert.assertThat;
 import static org.hamcrest.CoreMatchers.*;
@@ -23,6 +25,7 @@ public class ListClientExampleTest {
 		@SuppressWarnings("rawtypes")
 		List list = lce.getList();
 		assertThat(list, instanceOf(ArrayList.class) );
+		//assertTrue(list instanceof ArrayList);
 	}
 
 }
