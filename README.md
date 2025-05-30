@@ -1,5 +1,7 @@
 # ThinkDataStructures
 
+Forked on 2025.05.30
+
 LaTeX source and supporting code for *Think Data Structures: Algorithms and Information Retrieval in Java*
 
 
