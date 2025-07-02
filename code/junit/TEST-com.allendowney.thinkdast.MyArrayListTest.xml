@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="6" failures="12" hostname="Mac" name="com.allendowney.thinkdast.MyArrayListTest" skipped="0" tests="20" time="0.078" timestamp="2025-06-17T15:42:12">
+<testsuite errors="0" failures="0" hostname="Mac" name="com.allendowney.thinkdast.MyArrayListTest" skipped="0" tests="20" time="0.075" timestamp="2025-06-18T15:40:29">
   <properties>
     <property name="java.vendor" value="Homebrew" />
     <property name="sun.java.launcher" value="SUN_STANDARD" />
@@ -70,7 +70,7 @@
     <property name="java.vm.vendor" value="Homebrew" />
     <property name="env.LaunchInstanceID" value="2A8B5020-E4A9-4129-A5E2-87964DE35F5F" />
     <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.allendowney.thinkdast.MyArrayListTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/tm/Documents/GitHub/ThinkDataStructures/code/junit/TEST-com.allendowney.thinkdast.MyArrayListTest.xml crashfile=/Users/tm/Documents/GitHub/ThinkDataStructures/code/junitvmwatcher12347770508776466718.properties propsfile=/Users/tm/Documents/GitHub/ThinkDataStructures/code/junit10122686565855554443.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.allendowney.thinkdast.MyArrayListTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/tm/Documents/GitHub/ThinkDataStructures/code/junit/TEST-com.allendowney.thinkdast.MyArrayListTest.xml crashfile=/Users/tm/Documents/GitHub/ThinkDataStructures/code/junitvmwatcher16129702786956107740.properties propsfile=/Users/tm/Documents/GitHub/ThinkDataStructures/code/junit1148464843457990816.properties" />
     <property name="java.class.path" value="/Users/tm/Documents/GitHub/ThinkDataStructures/code/bin:/Users/tm/Documents/GitHub/ThinkDataStructures/code/lib/jedis-2.8.0.jar:/Users/tm/Documents/GitHub/ThinkDataStructures/code/lib/jsoup-1.8.3.jar:/Users/tm/Documents/GitHub/ThinkDataStructures/code/lib/junit-4.12.jar:/Users/tm/Documents/GitHub/ThinkDataStructures/code/lib/hamcrest-core-1.3.jar:/Users/tm/Documents/GitHub/ThinkDataStructures/code/lib/jcommon-1.0.23.jar:/Users/tm/Documents/GitHub/ThinkDataStructures/code/lib/jfreechart-1.0.19.jar:/Users/tm/Documents/GitHub/ThinkDataStructures/code/lib/servlet.jar:/Users/tm/Documents/GitHub/ThinkDataStructures/code/lib/ant-junit.jar:/Users/tm/Documents/GitHub/ThinkDataStructures/code/lib/commons-math3-3.6.jar:/Users/tm/Documents/GitHub/ThinkDataStructures/code/lib/hamcrest-library-1.3.jar:/opt/homebrew/Cellar/ant/1.10.15_1/libexec/lib/ant-launcher.jar:/opt/homebrew/Cellar/ant/1.10.15_1/libexec/lib/ant.jar:/opt/homebrew/Cellar/ant/1.10.15_1/libexec/lib/ant-junit.jar:/opt/homebrew/Cellar/ant/1.10.15_1/libexec/lib/ant-junit4.jar" />
     <property name="ant.version" value="Apache Ant(TM) version 1.10.15 compiled on August 25 2024" />
     <property name="env.TERM_SESSION_ID" value="7614B17E-82C6-40FD-8382-1CE2418A4AE5" />
@@ -106,157 +106,26 @@
     <property name="ant.project.invoked-targets" value="MyArrayListTest" />
     <property name="java.vendor.version" value="Homebrew" />
   </properties>
-  <testcase classname="com.allendowney.thinkdast.MyArrayListTest" name="testToArray" time="0.003">
-    <error message="Index 0 out of bounds for length 0" type="java.lang.ArrayIndexOutOfBoundsException">java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
-	at com.allendowney.thinkdast.MyArrayListTest.testToArray(MyArrayListTest.java:294)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-</error>
-  </testcase>
-  <testcase classname="com.allendowney.thinkdast.MyArrayListTest" name="testAddIntT" time="0.0">
-    <error type="java.lang.IndexOutOfBoundsException">java.lang.IndexOutOfBoundsException
-	at com.allendowney.thinkdast.MyArrayList.add(MyArrayList.java:54)
-	at com.allendowney.thinkdast.MyArrayListTest.testAddIntT(MyArrayListTest.java:64)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-</error>
-  </testcase>
-  <testcase classname="com.allendowney.thinkdast.MyArrayListTest" name="testGet" time="0.0">
-    <error type="java.lang.IndexOutOfBoundsException">java.lang.IndexOutOfBoundsException
-	at com.allendowney.thinkdast.MyArrayList.get(MyArrayList.java:106)
-	at com.allendowney.thinkdast.MyArrayListTest.testGet(MyArrayListTest.java:134)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-</error>
-  </testcase>
-  <testcase classname="com.allendowney.thinkdast.MyArrayListTest" name="testSet" time="0.002">
-    <failure message="&#xa;Expected: is &lt;2&gt;&#xa;     but: was null" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: 
-Expected: is &lt;2&gt;
-     but: was null
-	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-	at com.allendowney.thinkdast.MyArrayListTest.testSet(MyArrayListTest.java:244)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-</failure>
-  </testcase>
-  <testcase classname="com.allendowney.thinkdast.MyArrayListTest" name="testAddAllCollectionOfQextendsT" time="0.0">
-    <failure message="&#xa;Expected: is &lt;12&gt;&#xa;     but: was &lt;0&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: 
-Expected: is &lt;12&gt;
-     but: was &lt;0&gt;
-	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-	at com.allendowney.thinkdast.MyArrayListTest.testAddAllCollectionOfQextendsT(MyArrayListTest.java:96)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-</failure>
-  </testcase>
+  <testcase classname="com.allendowney.thinkdast.MyArrayListTest" name="testToArray" time="0.003" />
+  <testcase classname="com.allendowney.thinkdast.MyArrayListTest" name="testAddIntT" time="0.0" />
+  <testcase classname="com.allendowney.thinkdast.MyArrayListTest" name="testGet" time="0.0" />
+  <testcase classname="com.allendowney.thinkdast.MyArrayListTest" name="testSet" time="0.0" />
+  <testcase classname="com.allendowney.thinkdast.MyArrayListTest" name="testAddAllCollectionOfQextendsT" time="0.0" />
   <testcase classname="com.allendowney.thinkdast.MyArrayListTest" name="testClear" time="0.0" />
-  <testcase classname="com.allendowney.thinkdast.MyArrayListTest" name="testAddT" time="0.0">
-    <error type="java.lang.IndexOutOfBoundsException">java.lang.IndexOutOfBoundsException
-	at com.allendowney.thinkdast.MyArrayList.get(MyArrayList.java:106)
-	at com.allendowney.thinkdast.MyArrayListTest.testAddT(MyArrayListTest.java:56)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-</error>
-  </testcase>
-  <testcase classname="com.allendowney.thinkdast.MyArrayListTest" name="testSize" time="0.0">
-    <failure message="&#xa;Expected: is &lt;3&gt;&#xa;     but: was &lt;0&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: 
-Expected: is &lt;3&gt;
-     but: was &lt;0&gt;
-	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-	at com.allendowney.thinkdast.MyArrayListTest.testSize(MyArrayListTest.java:275)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-</failure>
-  </testcase>
-  <testcase classname="com.allendowney.thinkdast.MyArrayListTest" name="testLastIndexOf" time="0.0">
-    <failure message="&#xa;Expected: is &lt;3&gt;&#xa;     but: was &lt;-1&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: 
-Expected: is &lt;3&gt;
-     but: was &lt;-1&gt;
-	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-	at com.allendowney.thinkdast.MyArrayListTest.testLastIndexOf(MyArrayListTest.java:186)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-</failure>
-  </testcase>
-  <testcase classname="com.allendowney.thinkdast.MyArrayListTest" name="testContainsAll" time="0.0">
-    <failure message="&#xa;Expected: &lt;true&gt;&#xa;     but: was &lt;false&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: 
-Expected: &lt;true&gt;
-     but: was &lt;false&gt;
-	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-	at com.allendowney.thinkdast.MyArrayListTest.testContainsAll(MyArrayListTest.java:126)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-</failure>
-  </testcase>
-  <testcase classname="com.allendowney.thinkdast.MyArrayListTest" name="testRemoveObject" time="0.0">
-    <failure message="&#xa;Expected: &lt;true&gt;&#xa;     but: was &lt;false&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: 
-Expected: &lt;true&gt;
-     but: was &lt;false&gt;
-	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-	at com.allendowney.thinkdast.MyArrayListTest.testRemoveObject(MyArrayListTest.java:195)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-</failure>
-  </testcase>
-  <testcase classname="com.allendowney.thinkdast.MyArrayListTest" name="testContains" time="0.0">
-    <failure message="&#xa;Expected: &lt;true&gt;&#xa;     but: was &lt;false&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: 
-Expected: &lt;true&gt;
-     but: was &lt;false&gt;
-	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-	at com.allendowney.thinkdast.MyArrayListTest.testContains(MyArrayListTest.java:114)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-</failure>
-  </testcase>
-  <testcase classname="com.allendowney.thinkdast.MyArrayListTest" name="testIndexOfNull" time="0.0">
-    <failure message="&#xa;Expected: is &lt;3&gt;&#xa;     but: was &lt;-1&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: 
-Expected: is &lt;3&gt;
-     but: was &lt;-1&gt;
-	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-	at com.allendowney.thinkdast.MyArrayListTest.testIndexOfNull(MyArrayListTest.java:155)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-</failure>
-  </testcase>
-  <testcase classname="com.allendowney.thinkdast.MyArrayListTest" name="testIndexOf" time="0.0">
-    <failure message="&#xa;Expected: is &lt;0&gt;&#xa;     but: was &lt;-1&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: 
-Expected: is &lt;0&gt;
-     but: was &lt;-1&gt;
-	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-	at com.allendowney.thinkdast.MyArrayListTest.testIndexOf(MyArrayListTest.java:142)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-</failure>
-  </testcase>
-  <testcase classname="com.allendowney.thinkdast.MyArrayListTest" name="testMyList" time="0.0">
-    <failure message="&#xa;Expected: is &lt;3&gt;&#xa;     but: was &lt;0&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: 
-Expected: is &lt;3&gt;
-     but: was &lt;0&gt;
-	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-	at com.allendowney.thinkdast.MyArrayListTest.testMyList(MyArrayListTest.java:44)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-</failure>
-  </testcase>
-  <testcase classname="com.allendowney.thinkdast.MyArrayListTest" name="testIsEmpty" time="0.0">
-    <failure message="&#xa;Expected: &lt;false&gt;&#xa;     but: was &lt;true&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: 
-Expected: &lt;false&gt;
-     but: was &lt;true&gt;
-	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-	at com.allendowney.thinkdast.MyArrayListTest.testIsEmpty(MyArrayListTest.java:163)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-</failure>
-  </testcase>
-  <testcase classname="com.allendowney.thinkdast.MyArrayListTest" name="testIterator" time="0.001">
-    <error type="java.util.NoSuchElementException">java.util.NoSuchElementException
-	at java.base/java.util.Arrays$ArrayItr.next(Arrays.java:4307)
-	at com.allendowney.thinkdast.MyArrayListTest.testIterator(MyArrayListTest.java:174)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-</error>
-  </testcase>
+  <testcase classname="com.allendowney.thinkdast.MyArrayListTest" name="testAddT" time="0.0" />
+  <testcase classname="com.allendowney.thinkdast.MyArrayListTest" name="testSize" time="0.0" />
+  <testcase classname="com.allendowney.thinkdast.MyArrayListTest" name="testLastIndexOf" time="0.0" />
+  <testcase classname="com.allendowney.thinkdast.MyArrayListTest" name="testContainsAll" time="0.0" />
+  <testcase classname="com.allendowney.thinkdast.MyArrayListTest" name="testRemoveObject" time="0.0" />
+  <testcase classname="com.allendowney.thinkdast.MyArrayListTest" name="testContains" time="0.001" />
+  <testcase classname="com.allendowney.thinkdast.MyArrayListTest" name="testIndexOfNull" time="0.0" />
+  <testcase classname="com.allendowney.thinkdast.MyArrayListTest" name="testIndexOf" time="0.0" />
+  <testcase classname="com.allendowney.thinkdast.MyArrayListTest" name="testMyList" time="0.0" />
+  <testcase classname="com.allendowney.thinkdast.MyArrayListTest" name="testIsEmpty" time="0.0" />
+  <testcase classname="com.allendowney.thinkdast.MyArrayListTest" name="testIterator" time="0.0" />
   <testcase classname="com.allendowney.thinkdast.MyArrayListTest" name="testRemoveAll" time="0.0" />
-  <testcase classname="com.allendowney.thinkdast.MyArrayListTest" name="testRemoveInt" time="0.0">
-    <failure message="&#xa;Expected: is &lt;2&gt;&#xa;     but: was null" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: 
-Expected: is &lt;2&gt;
-     but: was null
-	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-	at com.allendowney.thinkdast.MyArrayListTest.testRemoveInt(MyArrayListTest.java:224)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-</failure>
-  </testcase>
-  <testcase classname="com.allendowney.thinkdast.MyArrayListTest" name="testSubList" time="0.0">
-    <error type="java.lang.IndexOutOfBoundsException">java.lang.IndexOutOfBoundsException
-	at com.allendowney.thinkdast.MyArrayList.subList(MyArrayList.java:216)
-	at com.allendowney.thinkdast.MyArrayListTest.testSubList(MyArrayListTest.java:284)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-</error>
-  </testcase>
+  <testcase classname="com.allendowney.thinkdast.MyArrayListTest" name="testRemoveInt" time="0.0" />
+  <testcase classname="com.allendowney.thinkdast.MyArrayListTest" name="testSubList" time="0.0" />
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
